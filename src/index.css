@@ -73,3 +73,30 @@ h1{
 .image button{
   margin-top: 10px;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+    margin-top: 50px;
+  }
+
+  .parent {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .box {
+    width: 80%;
+  }
+
+  .box input {
+    font-size: 18px;
+    padding: 8px;
+  }
+
+  .box button,
+  .image button {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
